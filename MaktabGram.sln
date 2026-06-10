@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Domain", "01-Domain", "{2BC9C734-2E8A-41DD-B829-54ED632091B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaktabGram.Domain", "01-Domain\MaktabGram.Domain\MaktabGram.Domain.csproj", "{D8EC892C-7BE3-49D3-8DD7-4B7AE0196109}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Contracts", "02-Contracts", "{398FAF24-B6C0-4102-8863-227FB13BD065}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Application", "03-Application", "{2419CCF3-9031-4232-BC56-D8162529996D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Infrastructure", "04-Infrastructure", "{A727FB00-04F1-4CE8-B0C8-ED59834D0B07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-EndPoint", "05-EndPoint", "{3E78F378-EF83-46CC-AAA9-402F2230E8D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaktabGram.Contracts", "02-Contracts\MaktabGram.Contracts\MaktabGram.Contracts.csproj", "{AD3FA5F2-4CA6-429C-8C5B-69E97D37CBAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaktabGram.Application", "03-Application\MaktabGram.Application\MaktabGram.Application.csproj", "{EDE88F5D-DC56-47A0-8854-1FB80567E383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaktabGram.Infrastructure", "04-Infrastructure\MaktabGram.Infrastructure\MaktabGram.Infrastructure.csproj", "{5D816460-E718-47B1-82B3-D5BCEAD9F20E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8EC892C-7BE3-49D3-8DD7-4B7AE0196109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8EC892C-7BE3-49D3-8DD7-4B7AE0196109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8EC892C-7BE3-49D3-8DD7-4B7AE0196109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8EC892C-7BE3-49D3-8DD7-4B7AE0196109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD3FA5F2-4CA6-429C-8C5B-69E97D37CBAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD3FA5F2-4CA6-429C-8C5B-69E97D37CBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD3FA5F2-4CA6-429C-8C5B-69E97D37CBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD3FA5F2-4CA6-429C-8C5B-69E97D37CBAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDE88F5D-DC56-47A0-8854-1FB80567E383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE88F5D-DC56-47A0-8854-1FB80567E383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE88F5D-DC56-47A0-8854-1FB80567E383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE88F5D-DC56-47A0-8854-1FB80567E383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D816460-E718-47B1-82B3-D5BCEAD9F20E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D816460-E718-47B1-82B3-D5BCEAD9F20E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D816460-E718-47B1-82B3-D5BCEAD9F20E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D816460-E718-47B1-82B3-D5BCEAD9F20E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8EC892C-7BE3-49D3-8DD7-4B7AE0196109} = {2BC9C734-2E8A-41DD-B829-54ED632091B7}
+		{AD3FA5F2-4CA6-429C-8C5B-69E97D37CBAA} = {398FAF24-B6C0-4102-8863-227FB13BD065}
+		{EDE88F5D-DC56-47A0-8854-1FB80567E383} = {2419CCF3-9031-4232-BC56-D8162529996D}
+		{5D816460-E718-47B1-82B3-D5BCEAD9F20E} = {A727FB00-04F1-4CE8-B0C8-ED59834D0B07}
+	EndGlobalSection
+EndGlobal
